@@ -61,6 +61,9 @@ Note : The latest project artifacts can also be downloaded from the Connector St
     enable_tenant_qualified_urls = "true"
     enable_tenanted_sessions = "true"
     rewrite.custom_webapps=["/api/hypr/"]
+
+    [console.ui.idp_templates.hypr]
+    enabled = true
     ```
 
 **Step 4:** Deploying the HYPR login page
